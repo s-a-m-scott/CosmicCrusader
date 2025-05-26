@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 0e4aafff4a576094e8bf01e8769a592f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - bulletTemplate: {fileID: 6457289900067540133, guid: 3d83cd1ed464eaa42894a5d3348a7d5d, type: 3}
+  - gameMode: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
