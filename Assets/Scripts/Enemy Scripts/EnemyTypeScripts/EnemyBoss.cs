@@ -62,7 +62,7 @@ public class EnemyBoss : EnemyBase
             BossStates.spawnLandmine
         };
 
-        maxHealth = 100f * scaleFactor;
+        maxHealth = 15000f * scaleFactor;
         maxSpeed = 3.0f;
         damage = 10f * scaleFactor;
         fireRate = 0.08f;

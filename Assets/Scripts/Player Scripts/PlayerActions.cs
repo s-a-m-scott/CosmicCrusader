@@ -12,7 +12,7 @@ public class PlayerActions : MonoBehaviour
     const float multiBulletSpread = 4;
     public GameObject bulletTemplate;
     public ShipGameState gameState;
-    public List<double> stats;
+     public List<double> stats;
     public AudioSource shootSound;
     public AudioSource hitSound;
     public int currentHealth;

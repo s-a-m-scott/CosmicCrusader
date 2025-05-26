@@ -36,8 +36,8 @@ public class ItemAction : MonoBehaviour
         {
             if (Vector3.Distance(target.transform.position, transform.position) < startCollectDist)
             {
+                if (!collected) audioSource.Play();
                 collected = true;
-                if (!audioSource.isPlaying)audioSource.Play();
             }
             if (Vector3.Distance(target.transform.position, transform.position) < fullCollectDist)
             {

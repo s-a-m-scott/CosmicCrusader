@@ -6,7 +6,7 @@ using System;
 
 public class ShipGameState : MonoBehaviour
 {
-
+    #region properties etc
     public GameManager manager;
     public GameObject enemySpawnObject;
     public PlayerActions player;
@@ -25,6 +25,7 @@ public class ShipGameState : MonoBehaviour
     public bool bossWaveWin = false;
     public bool isBossWave = false;
     double startTime;
+    #endregion
     gameState state = gameState.play;
     void Start()
     {

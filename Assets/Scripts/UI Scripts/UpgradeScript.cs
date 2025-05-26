@@ -18,7 +18,7 @@ public class UpgradeScript : MonoBehaviour
         RectTransform canvTrans = canvasObject.GetComponent<RectTransform>();
         Vector2 offsets = new Vector2(canvTrans.rect.width * 0.22f, -canvTrans.rect.height * 0.15f);
         float startY = canvTrans.rect.height * 0.78f;
-        float startX = 0f;//0? why on earth does this one work at 0 and the other doesnt
+        float startX = 0f;
         //find manager
         GameObject managerObject = GameObject.FindWithTag("GameController");
         manager = managerObject.GetComponent<GameManager>();
@@ -43,12 +43,6 @@ public class UpgradeScript : MonoBehaviour
         EvaluatePrices();
 
     }
-
-    void Update()
-    {
-        
-    }
-
     public void GoToLevelSelect() {
         SceneManager.LoadScene("LevelSelectScene");
     }
